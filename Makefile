@@ -1,6 +1,5 @@
 SHELL := /bin/bash
 
-
 CLOSURE_COMPILER=java -jar tools/closure-compiler/compiler.jar \
 	      --warning_level VERBOSE \
 	      --language_in ECMASCRIPT5 \
