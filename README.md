@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nlaptev/code-prettify.svg?branch=master)](https://travis-ci.org/nlaptev/code-prettify)
+
 # Javascript code prettifier
 
 An embeddable script that makes source-code snippets in HTML prettier.
