@@ -20,6 +20,9 @@ all: distrib loader
 clean:
 	rm -rf distrib.tstamp distrib loader.tstamp src/prettify.js src/run_prettify.js
 
+test:
+	./node_modules/mocha/bin/mocha tests
+
 src/prettify.js: js-modules/*.js js-modules/*.pl
 	@if [ -e "$@" ]; then chmod +w "$@"; fi
 	@perl js-modules/js_include.pl "$$(basename $@)" > "$@"

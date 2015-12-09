@@ -1,0 +1,25 @@
+ {
+  "name": "code-prettify",
+  "version": "1.0.0",
+  "description": "An embeddable script that makes source-code snippets in HTML prettier.",
+  "main": "loader/run_prettify.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/google/code-prettify.git"
+  },
+  "author": "Various",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/google/code-prettify/issues"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/google/code-prettify"
+}
