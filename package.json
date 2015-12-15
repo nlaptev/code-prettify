@@ -19,7 +19,8 @@
     "url": "https://github.com/google/code-prettify/issues"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "jsdom": "*"
   },
   "homepage": "https://github.com/google/code-prettify"
 }
