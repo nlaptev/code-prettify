@@ -53,7 +53,7 @@ describe('prettify_test.html', function () {
 		      .replace(/`#(?![0-9])/, '<li class="L0">')
 		      .replace(/`#([0-9])/g, '</li><li class="L$1">');
 		    var actual = container.innerHTML;
-			assert.equal(golden, actual);
+            assert.equal(golden, actual);
 	  }
   });
 });
